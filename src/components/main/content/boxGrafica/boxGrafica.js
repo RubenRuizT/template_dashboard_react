@@ -49,8 +49,6 @@ function boxGrafica(){
         { x: 0.38, y: 0.4}, 
       ];
       
-    
-      
    return(
 
         <Fragment> 

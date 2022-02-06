@@ -1,6 +1,7 @@
 import {React, Fragment,useState} from "react"; 
 import "./content.css"; 
 import BoxGrafica from "./boxGrafica/boxGrafica";
+import BoxSearch from "./boxSearch/boxSearch";
 
 function Content(){
     return (
@@ -8,9 +9,8 @@ function Content(){
             <div className="content">
                 <div className="contentWrapper"> 
                     <div className="boxIzquierda"> 
-                        <div className="boxBuscador"> 
+                        <BoxSearch/>
 
-                        </div>
                     </div> 
                     <div className="boxDerecha"> 
                     <BoxGrafica/>
